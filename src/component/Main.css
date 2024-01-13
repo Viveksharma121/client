@@ -1,0 +1,240 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: white;
+}
+
+/* Top Header */
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #12a9bc;
+  padding: 10px 0;
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  width: 1470px;
+  height: 2rem;
+}
+/* Group 333 */
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.department {
+  display: flex;
+  align-items: center;
+}
+
+.department-icon {
+  margin-left: 5px;
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  margin-top: 4rem;
+  margin-left: -1rem;
+}
+
+/* Left Sidebar */
+.left-sidebar {
+  position: relative;
+  /* margin-top: 2rem; */
+  /* top: 93px; */
+  left: 10px;
+  max-width: 260px;
+  height: 656px;
+  background: #ffffffff;
+  /* box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f; */
+}
+
+.options {
+  padding: 10px;
+  border: 1px solid #12a9bc; /* Blue border */
+  border-radius: 4px; /* Border-radius to match the container */
+  margin-bottom: 10px;
+  cursor: pointer;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-history {
+  font-weight: bold;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* App.css */
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.option-left {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%; /* Ensure the text occupies the entire width */
+  cursor: pointer; /* Add cursor style to indicate it's clickable */
+}
+
+.option-left:hover {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+}
+
+.option-right {
+  display: flex;
+  align-items: center;
+}
+/* App.css */
+
+.bottom-options {
+  margin-top: 8rem;
+  padding-top: 20px; /* Add some padding at the top for separation */
+  /* border: 1px red solid; */
+}
+
+.bottom-option {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.bottom-option .icon {
+  margin-right: 5px;
+  /* Add additional styling for your icon here */
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.right-content {
+  flex: 3;
+  /* background-color: #f0f0f0; */
+  padding: 20px;
+  height: 600px;
+  max-width: 850px;
+  margin-left: 2rem;
+}
+.introduction {
+  background-color: #fff;
+  max-height: 80px;
+  margin-bottom: 20px;
+  border-radius: 3px; /* border-s */
+  border-width: 1px;
+  border-color: #bcc1caff; /* neutral-400 */
+  border-style: solid;
+}
+
+.user-caption {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.user-caption .icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.marketing-text {
+  margin-left: 10px; /* Adjust as needed */
+  color: #333; /* Example color, change as needed */
+  font-weight: 500; /* Example font-weight, change as needed */
+}
+.chat-input {
+  display: flex;
+  align-items: center;
+  margin-top: 22rem;
+  border: 1px solid rebeccapurple;
+}
+
+.chat-input .icon {
+  margin-right: 5px;
+  /* Add additional styling for your icon here */
+}
+/* App.css */
+
+.chat-input input::placeholder {
+  color: #12a9bc;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+}
+
+.user-message {
+  align-self: flex-end;
+  background-color: #a3d2e2;
+  max-width: 550px;
+  float: right;
+}
+
+.bot-message {
+  align-self: flex-start;
+  background-color: #e0e0e0;
+  max-width: 750px;
+  float: left;
+}
+
+.message-text {
+  padding: 10px;
+}
+.message-text-user {
+  padding: 10px;
+  background: #12a9bcff;
+  color: white;
+}
+/* Add additional styles for other content in the right content area */
+.text1 {
+  /* position: absolute; */
+  /* top: 15px;
+    left: 32px; */
+  margin-left: 2rem;
+  /* padding-top: 0.5rem; */
+  width: 290px;
+  font-family: Epilogue; /* Heading */
+  font-size: 16px;
+  font-weight: 700;
+  /* line-height: 26px; */
+  color: #171a1fff; /* neutral-900 */
+}
+
+.text2 {
+  font-family: Inter; /* Body */
+  margin-top: -0.7rem;
+  margin-left: 1.3rem;
+  font-size: 12px;
+  font-weight: 400;
+  color: #6e7787ff; /* neutral-550 */
+}
