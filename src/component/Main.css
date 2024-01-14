@@ -17,7 +17,6 @@
   width: 1470px;
   height: 2rem;
 }
-/* Group 333 */
 
 .logo {
   font-size: 24px;
@@ -43,19 +42,16 @@
 /* Left Sidebar */
 .left-sidebar {
   position: relative;
-  /* margin-top: 2rem; */
-  /* top: 93px; */
   left: 10px;
   max-width: 260px;
   height: 656px;
   background: #ffffffff;
-  /* box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f; */
 }
 
 .options {
   padding: 10px;
-  border: 1px solid #12a9bc; /* Blue border */
-  border-radius: 4px; /* Border-radius to match the container */
+  border: 1px solid #12a9bc;
+  border-radius: 4px;
   margin-bottom: 10px;
   cursor: pointer;
   margin-top: 1rem;
@@ -71,8 +67,6 @@
   justify-content: center;
   align-items: center;
 }
-
-/* App.css */
 
 .options-container {
   display: flex;
@@ -92,8 +86,8 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  width: 100%; /* Ensure the text occupies the entire width */
-  cursor: pointer; /* Add cursor style to indicate it's clickable */
+  width: 100%;
+  cursor: pointer;
 }
 
 .option-left:hover {
@@ -106,12 +100,10 @@
   display: flex;
   align-items: center;
 }
-/* App.css */
 
 .bottom-options {
   margin-top: 8rem;
-  padding-top: 20px; /* Add some padding at the top for separation */
-  /* border: 1px red solid; */
+  padding-top: 20px;
 }
 
 .bottom-option {
@@ -123,16 +115,16 @@
 
 .bottom-option .icon {
   margin-right: 5px;
-  /* Add additional styling for your icon here */
 }
 
 .icon {
   margin-right: 5px;
 }
 
+/*Right side content*/
+
 .right-content {
   flex: 3;
-  /* background-color: #f0f0f0; */
   padding: 20px;
   height: 600px;
   max-width: 850px;
@@ -142,9 +134,9 @@
   background-color: #fff;
   max-height: 80px;
   margin-bottom: 20px;
-  border-radius: 3px; /* border-s */
+  border-radius: 3px;
   border-width: 1px;
-  border-color: #bcc1caff; /* neutral-400 */
+  border-color: #bcc1caff;
   border-style: solid;
 }
 
@@ -160,10 +152,13 @@
 }
 
 .marketing-text {
-  margin-left: 10px; /* Adjust as needed */
-  color: #333; /* Example color, change as needed */
-  font-weight: 500; /* Example font-weight, change as needed */
+  margin-left: 10px;
+  color: #333;
+  font-weight: 500;
 }
+
+/*Chat */
+
 .chat-input {
   display: flex;
   align-items: center;
@@ -173,9 +168,7 @@
 
 .chat-input .icon {
   margin-right: 5px;
-  /* Add additional styling for your icon here */
 }
-/* App.css */
 
 .chat-input input::placeholder {
   color: #12a9bc;
@@ -192,6 +185,8 @@
 .chat-message {
   margin-bottom: 10px;
 }
+
+/*User and bot message*/
 
 .user-message {
   align-self: flex-end;
@@ -215,26 +210,21 @@
   background: #12a9bcff;
   color: white;
 }
-/* Add additional styles for other content in the right content area */
+
 .text1 {
-  /* position: absolute; */
-  /* top: 15px;
-    left: 32px; */
   margin-left: 2rem;
-  /* padding-top: 0.5rem; */
   width: 290px;
-  font-family: Epilogue; /* Heading */
+  font-family: Epilogue;
   font-size: 16px;
   font-weight: 700;
-  /* line-height: 26px; */
-  color: #171a1fff; /* neutral-900 */
+  color: #171a1fff;
 }
 
 .text2 {
-  font-family: Inter; /* Body */
+  font-family: Inter;
   margin-top: -0.7rem;
   margin-left: 1.3rem;
   font-size: 12px;
   font-weight: 400;
-  color: #6e7787ff; /* neutral-550 */
+  color: #6e7787ff;
 }

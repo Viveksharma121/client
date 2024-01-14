@@ -129,7 +129,7 @@ const Main = () => {
             </div>
           </div>
 
-          {/* New options at the bottom */}
+          {/* options at the bottom */}
           <div className="bottom-options">
             <div className="bottom-option">
               <span className="icon">
@@ -156,7 +156,6 @@ const Main = () => {
 
         {/* Right Content */}
         <div className="right-content">
-          {/* User introduction */}
           <div className="introduction">
             <h3 className="text1">Introduce yourself to AIWorkSquad</h3>
             <div className="user-caption">
@@ -223,7 +222,7 @@ const Main = () => {
               <ContactSupportIcon style={{ fontSize: "medium" }} />
             </div>
           </div>
-          {/* Placeholder icon and input */}
+          {/* chat input */}
           <div className="chat-input" style={{ border: "1px solid #BCC1CAFF" }}>
             <span className="icon">
               <ContactSupportIcon
@@ -255,13 +254,10 @@ const Main = () => {
                 }}
               />
             )}{" "}
-            )
             <span className="icon">
               <SendIcon style={{ color: "#12a9bc" }} />
             </span>
           </div>
-
-          {/* Other content goes here */}
         </div>
       </div>
     </div>
